@@ -1,0 +1,27 @@
+{
+  "name": "walle",
+  "version": "1.0.0",
+  "description": "it is walle",
+  "main": "index.js",
+  "dependencies": {
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-usemin": "^3.1.1",
+    "grunt-rev": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "walle"
+  ],
+  "author": "JHercules",
+  "license": "ISC"
+}

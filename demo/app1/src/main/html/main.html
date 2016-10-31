@@ -1,0 +1,30 @@
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>app1</title>
+<!-- #region lib-->
+<!-- build:js ../../lib/jquery/jquery-3.1.1.min.js -->
+<script type="text/javascript" src="../../../../lib/jquery/jquery-3.1.1.min.js" ></script>
+<!-- endbuild -->
+<!-- #endregion -->
+
+<!-- #region code generation-->
+<!-- build:css ../css/app.min.css -->
+<link type="text/css" rel="stylesheet" href="../../main/css/main.css"/>
+<link type="text/css" rel="stylesheet" href="../../module1/css/module1.css"/>
+<!-- endbuild -->
+<!-- build:js ../js/app.min.js -->
+<script type="text/javascript" src="../../main/js/main.js" ></script>
+<script type="text/javascript" src="../../module1/js/module1.js" ></script>
+<!-- endbuild -->
+<!-- #endregion -->
+<script>
+	var oModuleMain = new ModuleMain();
+	oModuleMain.hello();
+</script>
+</head>
+<body>
+	<div class="main">Main</div>
+	<div class="module1">module1</div>
+</body>

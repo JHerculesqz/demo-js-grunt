@@ -1,0 +1,19 @@
+.core1 {
+  width: 360px;
+  height: 424px;
+  background-image: url(../image/core1.png);
+}
+
+
+.component1 {
+  width: 360px;
+  height: 424px;
+  background-image: url(../image/component1.png);
+}
+
+
+.widget1 {
+  width: 360px;
+  height: 424px;
+  background-image: url(../image/widget1.png);
+}
