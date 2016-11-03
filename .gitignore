@@ -1,2 +1,5 @@
 demo/app1/dist/
 demo/walle/dist/
+demo/app1/node_modules/
+demo/walle/node_modules/
+.idea/
